@@ -17,7 +17,7 @@ jobs:
       - name: Format check
         run: black --check contracts tests
       - name: Lint
-        run: flake8 contracts tests --max-line-length=100 --ignore=E501,W503,E402,F403,F405
+        run: flake8 contracts tests --max-line-length=100 --ignore=E501,W503,E203,E402,F403,F405
       - name: Tests
         run: python3 -m pytest -q
       - name: Deployed code equals this source

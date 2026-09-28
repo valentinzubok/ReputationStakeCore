@@ -9,7 +9,7 @@ import sys
 import urllib.request
 
 RPC = "https://studio-dev.genlayer.com/api"
-ADDRESS = "0x795b7661E10dF78BEd921dB7986C05b115614015"
+ADDRESS = "0x1E075794c6404F8f5b9ef87aE29Cf77071Cec86f"
 SOURCE = pathlib.Path(__file__).resolve().parents[1] / "contracts" / "ReputationStake.py"
 
 
